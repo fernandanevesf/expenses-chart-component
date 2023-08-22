@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles/style.css">
+  
+  <title>Frontend Mentor | Expenses chart component</title>
+
+</head>
+<body>
+
+<main>
+<section class="balance">
+  <p>My balance
+  <span class="bold-value">$921.48</span></p>
+  <img src="images/logo.svg" alt="">
+</section>
+
+<section class="spending">
+<p class="chart-heading">Spending - Last 7 days</p>
+<div class="chart-container">
+  <canvas id="chart" aria-label="Spendings chart" role="img">
+mon: $17.45
+tue: $34.91
+wed: $52.36
+thu: $31.07
+fri: $23.39
+sat: $43.28
+sun: $25.48
+  </canvas>
+</div>
+
+<hr>
+
+<div class="totals">
+  <p>Total this month
+  <span class="bold-value">$478.33</span></p>
+  <p class="percentage-paragraph"><span class="bold-value percentage">+2.4%</span>
+  from last month</p>
+</div>
+</section>
+
+</main>
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io/challenges/expenses-chart-component-e7yJBUdjwt" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/fernandanevesf">Fernanda</a>.
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.2.1/dist/chart.umd.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

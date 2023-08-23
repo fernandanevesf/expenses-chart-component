@@ -76,7 +76,7 @@ main {
     width: 25rem;
   }
 }
-.balance p {
+.balance h2 {
   max-width: 10rem;
   font-size: 0.9rem;
 }

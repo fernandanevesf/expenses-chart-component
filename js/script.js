@@ -76,6 +76,7 @@ const ctx = document.getElementById('chart');
           enabled: true,
           backgroundColor: 'hsl(25, 47%, 15%)',
           yAlign: 'top',
+          xAlign: 'center',
           displayColors: false,
           caretSize: 0,
           //position: 'myCustomPositioner', 

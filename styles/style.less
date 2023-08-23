@@ -58,15 +58,15 @@ body {
   font-family: 'DM Sans', sans-serif;
   font-size: 1rem;
   background-color: @cream;
+  .flex-column();
+  justify-content: center;
+  align-items: center;
 }
 
 main{
   .flex-column();
-  justify-content: center;
   align-items: center;
-  height: 95vh;
   gap: 1rem;
-  overflow: auto;
 }
 
 .bold-value{
@@ -81,7 +81,7 @@ main{
   background-color: @soft-red;
   .section-width();
   padding: 1rem;
-  border-radius: .5rem;
+  border-radius: .7rem;
   color: @pale-orange;
   p{
     max-width: 10rem;
@@ -98,8 +98,8 @@ main{
 .spending{
   background-color: @pale-orange;
   .section-width();
-  padding: 1rem;
-  border-radius: .5rem;
+  padding: 1.5rem;
+  border-radius: .7rem;
   .chart-heading{
     font-weight: 700;
     font-size: 1.4rem;
@@ -143,9 +143,9 @@ hr{
   }
 
 .attribution { 
-    font-size: .7rem; 
-    text-align: center; 
-    a { 
-        color: @dark-brown;
-    }
+  font-size: .7rem; 
+  text-align: center; 
+  a { 
+      color: @dark-brown;
+  }
 }

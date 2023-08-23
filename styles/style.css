@@ -45,15 +45,16 @@ body {
   font-family: 'DM Sans', sans-serif;
   font-size: 1rem;
   background-color: hsl(27, 66%, 92%);
-}
-main {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 95vh;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   gap: 1rem;
-  overflow: auto;
 }
 .bold-value {
   font-weight: 700;
@@ -67,7 +68,7 @@ main {
   background-color: hsl(10, 79%, 65%);
   width: 20rem;
   padding: 1rem;
-  border-radius: 0.5rem;
+  border-radius: 0.7rem;
   color: hsl(33, 100%, 98%);
 }
 @media (min-width: 50rem) {
@@ -88,8 +89,8 @@ main {
 .spending {
   background-color: hsl(33, 100%, 98%);
   width: 20rem;
-  padding: 1rem;
-  border-radius: 0.5rem;
+  padding: 1.5rem;
+  border-radius: 0.7rem;
 }
 @media (min-width: 50rem) {
   .spending {
